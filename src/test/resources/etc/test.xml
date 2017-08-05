@@ -1,0 +1,24 @@
+<ui>
+    <menus>
+        <menu name="view">
+            <subMenus>
+                <menu name="view.zoomIn" shortcut="Ctrl+="/>
+                <menu name="view.zoomOut" shortcut="Ctrl+-"/>
+                <menu name="view.zoomNormal" shortcut="Ctrl+0"/>
+            </subMenus>
+        </menu>
+        <menu name="help">
+            <subMenus>
+                <menu name="help.doc" shortcut="A"/>
+                <menu name="help.about" shortcut="B"/>
+            </subMenus>
+        </menu>
+    </menus>
+    <toolbar>
+        <tool name="point" group="tool" type="ToggleButton" imgUrl="icon-toolbar-point.png"/>
+        <tool name="hand" group="tool" type="ToggleButton" imgUrl="icon-toolbar-hand.png"/>
+        <tool name="ruler" group="tool" type="ToggleButton" imgUrl="icon-toolbar-ruler.png"/>
+        <tool name="measure" group="tool" type="ToggleButton" imgUrl="icon-toolbar-measure.png"/>
+        <tool name="export" type="Button" imgUrl="icon-toolbar-export.png"/>
+    </toolbar>
+</ui>
